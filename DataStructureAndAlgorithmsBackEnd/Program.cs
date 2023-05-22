@@ -42,4 +42,5 @@ app.MapControllers();
 app.MapHub<SignalRTestHub>("/signalRTestHub");
 app.MapHub<BubbleSortHub>("/bubbleSortHub");
 app.MapHub<SelectSortHub>("/selectSortHub");
+app.MapHub<InsertionSortHub>("/insertionSortHub");
 app.Run();
