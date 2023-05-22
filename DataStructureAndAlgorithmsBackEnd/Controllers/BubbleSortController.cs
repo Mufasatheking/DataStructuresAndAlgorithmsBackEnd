@@ -1,5 +1,6 @@
 using DataStructureAndAlgorithmsBackEnd.Hubs;
 using DataStructureAndAlgorithmsBackEnd.Model;
+using DataStructureAndAlgorithmsBackEnd.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 
@@ -17,34 +18,21 @@ namespace DataStructureAndAlgorithmsBackEnd.Controllers
         }
         
         [HttpGet]
-        public async Task<IActionResult> BubbleSort()
+        public IActionResult BubbleSort()
         {
-
-            await SetUpBubbleSort();
+            SetUpBubbleSort();
 
             var response = new { message = "Bubble Sort Finished" };
             return Ok(response);
         }
 
-        private async Task SetUpBubbleSort()
+        private void SetUpBubbleSort()
         {
-            var array = GenerateRandomArray(20,250);
+            var array = RandomIntArray.Generate(20,250);
             var initialStep = new BubbleSortStep(array, 0, 0,0, initial:true);
             _hubContext.Clients.All.SendAsync("sendBubbleSortStep", initialStep);
-            var finalArray = this.PerformBubbleSort(array);
-            _hubContext.Clients.All.SendAsync("sendBubbleSortStep", finalArray);
-        }
-        private int[] GenerateRandomArray(int length, int max)
-        {
-            Random random = new Random();
-            int[] array = new int[length];
-
-            for (int i = 0; i < length; i++)
-            {
-                array[i] = random.Next(0, max + 1);
-            }
-
-            return array;
+            var finalstep = this.PerformBubbleSort(array);
+            _hubContext.Clients.All.SendAsync("sendBubbleSortStep", finalstep);
         }
 
         private BubbleSortStep PerformBubbleSort(int[] array)

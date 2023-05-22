@@ -39,6 +39,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-app.MapHub<SignalRTestHub>("/signalrtesthub");
-app.MapHub<BubbleSortHub>("/bubblesorthub");
+app.MapHub<SignalRTestHub>("/signalRTestHub");
+app.MapHub<BubbleSortHub>("/bubbleSortHub");
+app.MapHub<SelectSortHub>("/selectSortHub");
 app.Run();
