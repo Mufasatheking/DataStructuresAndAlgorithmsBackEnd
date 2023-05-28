@@ -28,7 +28,7 @@ namespace DataStructureAndAlgorithmsBackEnd.Controllers
 
         private void SetUpBubbleSort()
         {
-            var array = RandomIntArray.Generate(20,250);
+            var array = RandomIntArray.Generate(10,100);
             var initialStep = new BubbleSortStep(array, 0, 0,0, initial:true);
             _hubContext.Clients.All.SendAsync("sendBubbleSortStep", initialStep);
             var finalstep = this.PerformBubbleSort(array);
@@ -37,7 +37,7 @@ namespace DataStructureAndAlgorithmsBackEnd.Controllers
 
         private BubbleSortStep PerformBubbleSort(int[] array)
         {
-            int sleepTime = 20;
+            int sleepTime = 1000;
             int iterations = 0;
             int steps = 0;
             bool wasSwapped = true;

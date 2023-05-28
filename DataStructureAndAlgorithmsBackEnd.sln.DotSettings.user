@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=55eee0d2_002D5cde_002D45dd_002D914a_002D5b42fb83e621/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RecurseArray" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter11Exercises.Chapter11ExercisesTests.StringCharacterCountTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter11Exercises.Chapter11ExercisesTests.EvensOnlyTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter11Exercises.Chapter11ExercisesTests.TriangleNumbersTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter11Exercises.Chapter11ExercisesTests.FirstXTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter11Exercises.Chapter11ExercisesTests.ShortestPathsTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
