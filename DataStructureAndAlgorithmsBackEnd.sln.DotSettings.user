@@ -6,5 +6,6 @@
     &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter11Exercises.Chapter11ExercisesTests.TriangleNumbersTest&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter11Exercises.Chapter11ExercisesTests.FirstXTest&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter11Exercises.Chapter11ExercisesTests.ShortestPathsTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter13_RecursiveForSpeed_QuickSort.QuickSortTests.RunPartition&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

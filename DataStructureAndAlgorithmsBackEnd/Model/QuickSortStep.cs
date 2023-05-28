@@ -14,11 +14,12 @@ namespace DataStructureAndAlgorithmsBackEnd.Model
         public int Iterations { get; }
         public int Steps { get; }
         public string Message { get; }
+        public List<int> PreviousPivotIndexes { get; }
         public bool PivotSwap { get; }
         public bool Sorted { get; }
         public bool Initial { get; }
 
-        public QuickSortStep(int[] array, int pivotIndex, int leftPointerIndex, bool leftComparing,int? leftPointerValue, int rightPointerIndex, bool rightComparing, int? rightPointerValue, bool swapping, int iterations, int steps,string message,bool pivotSwap = false, bool sorted = false, bool initial = false)
+        public QuickSortStep(int[] array, int pivotIndex, int leftPointerIndex, bool leftComparing,int? leftPointerValue, int rightPointerIndex, bool rightComparing, int? rightPointerValue, bool swapping, int iterations, int steps,string message,List<int> previousPivotIndexes, bool pivotSwap = false, bool sorted = false, bool initial = false)
         {
             Array = array;
             PivotIndex = pivotIndex;
@@ -32,6 +33,7 @@ namespace DataStructureAndAlgorithmsBackEnd.Model
             Iterations = iterations;
             Steps = steps;
             Message = message;
+            PreviousPivotIndexes = previousPivotIndexes;
             PivotSwap = pivotSwap;
             Sorted = sorted;
             Initial = initial;
