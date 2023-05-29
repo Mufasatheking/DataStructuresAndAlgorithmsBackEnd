@@ -51,7 +51,7 @@ namespace DataStructureAndAlgorithmsBackEnd.Controllers
 
         private void SetUpQuickSort()
         {
-            var array = RandomIntArray.Generate(30,100);
+            var array = RandomIntArray.Generate(35,100);
             //var array = new int[] { 0, 1,4,0,1,4,9,2,5,6,2,5,6, 3 }; // RandomIntArray.Generate(10,100);
             var leftPointerIndex = 0;
             var rightPointerIndex = array.Length - 1;
@@ -76,7 +76,7 @@ namespace DataStructureAndAlgorithmsBackEnd.Controllers
 
             // Partition the range of elements and grab the index of the pivot:
             int pivotIndex = Partition(array,leftIndex, rightIndex);
-
+        
             // Recursively call this QuickSort method on whatever
             // is to the left of the pivot:
             QuickSort(array,leftIndex, pivotIndex - 1);

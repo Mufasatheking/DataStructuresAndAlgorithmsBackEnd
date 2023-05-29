@@ -7,5 +7,17 @@
     &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter11Exercises.Chapter11ExercisesTests.FirstXTest&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter11Exercises.Chapter11ExercisesTests.ShortestPathsTest&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter13_RecursiveForSpeed_QuickSort.QuickSortTests.RunPartition&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter14LinkedLists.LinkedListTests.ReverseLinkedListTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter14LinkedLists.LinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.MyLinkedListTests.RunCodeTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.MyLinkedListTests.RunCodeTest2&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.MyLinkedListTests.RunCodeTest3&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.MyLinkedListTests.RunCodeTest4&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.MyLinkedListTests.RunCodeTest5&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.MyLinkedListTests.RunCodeTest6&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.MyLinkedListTests.RunCodeTest7&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.MyLinkedListTests.RunCodeTest8&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.MyLinkedListTests.RunCodeTest9&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.MyLinkedListTests.RunCodeTest10&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
