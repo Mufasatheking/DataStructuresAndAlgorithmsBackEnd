@@ -1,5 +1,18 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=55eee0d2_002D5cde_002D45dd_002D914a_002D5b42fb83e621/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RecurseArray" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/Hierarchy/Build/BuildTool/CustomBuildToolPath/@EntryValue">/usr/local/share/dotnet/sdk/5.0.408/MSBuild.dll</s:String>
+	<s:String x:Key="/Default/Environment/Hierarchy/Build/BuildTool/DotNetCliExePath/@EntryValue">/usr/local/share/dotnet/dotnet</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=05b2ec41_002D4bf0_002D471c_002Db050_002D0cbe61ce6813/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BinarySearchTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.BinarySearch.BinarySearchTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3799f3f6_002D7ce4_002D41f3_002Dbcda_002D648251407a17/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BinarySearchTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.BinarySearch.BinarySearchTests.BinarySearchTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.BinarySearch.BinarySearchTests.RotatedBinarySearchTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=55eee0d2_002D5cde_002D45dd_002D914a_002D5b42fb83e621/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RecurseArray" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter11Exercises.Chapter11ExercisesTests.StringCharacterCountTest&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.CommonSenseDSA.Chapter11Exercises.Chapter11ExercisesTests.EvensOnlyTest&lt;/TestId&gt;
@@ -19,5 +32,39 @@
     &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.MyLinkedListTests.RunCodeTest8&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.MyLinkedListTests.RunCodeTest9&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.MyLinkedListTests.RunCodeTest10&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.LinkedList.FConclusion.MergeTwoListsTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.Arrays101.FConclusion.MaxConsecutiveOnesTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.Arrays101.FConclusion&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.ArraysAndStrings.AIntroduction.PivotIndexTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.Sorting.InsertionSortListTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.Solution.BuildTreeTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.Solution.BuildTreePreOrderTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.Solution.checkBfsCode&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.BinarySearch.BinarySearchTests.BinarySearchTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=70213a62_002D4e5c_002D4855_002D9ad8_002D37185946226a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RotatedBinarySearchTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.BinarySearch.BinarySearchTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.BinarySearch.FindPeakElementTests.FindPeakElementTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.BinarySearch.FindPeakElementTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.BinarySearch.BinarySearchFirstAndLastTests.FindTargetTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.BinarySearch.BinarySearchFirstAndLastTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.Heap.HeapTests.FindKthLargestTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=76d43a71_002D3ae7_002D488e_002D961d_002Dc0c440bab5c4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RotatedBinarySearchTest(0,4,[4, 5, 6, 7, 0, ...])" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.BinarySearch.BinarySearchTests.RotatedBinarySearchTest(0,4,[4, 5, 6, 7, 0, ...])&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f8ebaad1_002Ddc23_002D4f0f_002Da87e_002D3bba6a2d5583/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RotatedBinarySearchTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.BinarySearch.BinarySearchTests.RotatedBinarySearchTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fe5c62cd_002D92d8_002D4b78_002D9ce8_002Da37e48fac6c8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BinarySearchTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::BE6515ED-B3F0-43CB-A162-FCFCE115C17B::net6.0::DataStructuresAndAlgorithmsTests.LeetCode.BinarySearch.BinarySearchTests.BinarySearchTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

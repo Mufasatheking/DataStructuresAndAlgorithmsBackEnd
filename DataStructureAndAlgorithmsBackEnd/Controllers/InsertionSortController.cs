@@ -26,7 +26,7 @@ namespace DataStructureAndAlgorithmsBackEnd.Controllers
         }
            private void SetUpInsertionSort()
         {
-            var array = RandomIntArray.Generate(50,100).Select(p => (int?)p).ToArray();
+            var array = RandomIntArray.Generate(15,100).Select(p => (int?)p).ToArray();
             var initialStep = new InsertionSortStep(array, 1, 1,1, 0,0,0,initial:true);
             _hubContext.Clients.All.SendAsync("sendInsertionSortStep", initialStep);
             var finalStep = this.PerformInsertionSort(array);
@@ -35,7 +35,7 @@ namespace DataStructureAndAlgorithmsBackEnd.Controllers
 
         private InsertionSortStep PerformInsertionSort(int?[] array)
         {
-            int sleepTime = 25;
+            int sleepTime = 200;
             int iterations = 0;
             int steps = 0;
             int startIndex = 1;

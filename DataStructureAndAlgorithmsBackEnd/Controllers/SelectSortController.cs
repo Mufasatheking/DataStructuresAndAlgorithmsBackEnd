@@ -35,7 +35,7 @@ namespace DataStructureAndAlgorithmsBackEnd.Controllers
 
         private SelectSortStep PerformSelectSort(int[] array)
         {
-            int sleepTime = 10;
+            int sleepTime = 200;
             int iterations = 0;
             int steps = 0;
             int startIndex = 0;

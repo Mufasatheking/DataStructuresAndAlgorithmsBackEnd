@@ -1,4 +1,4 @@
-namespace DataStructuresAndAlgorithmsTests.LeetCode.LinkedList
+/*namespace DataStructuresAndAlgorithmsTests.LeetCode.LinkedList
 {
     public class Node{
         public int val {get;set;}
@@ -283,4 +283,4 @@ namespace DataStructuresAndAlgorithmsTests.LeetCode.LinkedList
            var aa = 2;
        }
     }
-}
+}*/
